@@ -2,7 +2,7 @@ Package.describe({
   name: 'hausor:autoform-bs-minicolors',
   summary: 'Custom bootstrap-minicolors input type for AutoForm',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/Hausor/autoform-bs-minicolors'
 });
 
 Package.onUse(function(api) {
