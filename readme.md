@@ -56,6 +56,12 @@ This input type is intended to be used with `type: String` schema keys.
 
 [Live](http://autoform-bs-minicolors.meteor.com)
 
+## Test
+
+To see tests just run:
+
+    meteor test-packages --driver-package respondly:test-reporter hausor:autoform-bs-minicolors
+
 ## Contributing
 
 Anyone is welcome to contribute. Fork, make your changes, and then submit a pull request.

@@ -17,7 +17,13 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use(['mike:mocha-package', 'practicalmeteor:chai']);
   api.use('hausor:autoform-bs-minicolors');
-  api.addFiles('minicolors-tests.js');
+  api.use('coffeescript');
+  api.use('templating@1.0.0');
+  api.use('blaze@2.0.0');
+  api.use('aldeed:autoform@4.0.0 || 5.0.0');
+  api.addFiles('test/client/schema.coffee');
+  api.addFiles('test/client/form_wrapper.html');
+  api.addFiles('test/client/minicolors-tests.coffee', "client");
 });
