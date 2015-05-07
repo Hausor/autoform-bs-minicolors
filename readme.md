@@ -61,6 +61,10 @@ This input type is intended to be used with `type: String` schema keys.
 To see tests just run:
 
     meteor test-packages --driver-package respondly:test-reporter hausor:autoform-bs-minicolors
+    
+## Origin
+
+This repo is a part of [hausor.com](http://hausor.com) - meteorjs app for buildind and sharing floor plans.
 
 ## Contributing
 
